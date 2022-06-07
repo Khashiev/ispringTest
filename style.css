@@ -1,0 +1,36 @@
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+}
+
+.wrapper__inner {
+    flex-basis: 40%;
+}
+
+.btn {
+    padding: 10px 50px;
+    border-radius: 15px;
+    cursor: pointer;
+    background: rgb(78, 78, 194);
+    color: white;
+    border: none;
+}
+
+.wrapper__inner--btn {
+    /* margin-bottom: 0px; */
+    margin-top: auto;
+}
+
+.input__write {
+    width: 450px;
+    height: 30px;
+}
+
+.input__read {
+    width: 450px;
+    height: 300px;
+    resize: none;
+    outline: none;
+}
